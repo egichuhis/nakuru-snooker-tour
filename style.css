@@ -127,6 +127,49 @@ body {
   background: url('./imgs/program-bg.png');
 }
 
+.main-program {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.main-program hr {
+  color: #fa4f40;
+  height: 5px;
+  width: 10%;
+}
+
+.program-items-cont {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+
+.program-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(250, 242, 242, 0.1);
+  margin-bottom: 8px;
+}
+
+.program-item img {
+  width: 45px;
+}
+
+.program-item h4 {
+  color: #fa4f40;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.program-item p {
+  font-size: 13.5px;
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+
+
 @media screen and (min-width: 768px) {
   .headline-div h2 {
     font-size: 40.6px;

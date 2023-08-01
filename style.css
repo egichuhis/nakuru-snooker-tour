@@ -73,6 +73,7 @@ body {
   justify-content: center;
   align-items: center;
   color: rgba(0, 0, 0, 0.65);
+  font-size: 30px;
 }
 
 .headline {
@@ -122,6 +123,10 @@ body {
   font-weight: 400;
 }
 
+.program-section {
+  background: url('./imgs/program-bg.png');
+}
+
 @media screen and (min-width: 768px) {
   .headline-div h2 {
     font-size: 40.6px;
@@ -147,4 +152,6 @@ body {
   .headline-div h4 {
     font-size: 24px;
   }
+
+
 }

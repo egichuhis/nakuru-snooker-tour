@@ -143,6 +143,7 @@ body {
   padding-left: 10px;
   margin-top: 10px;
   margin-right: 0px;
+  text-align: center;
 }
 
 .program-item {
@@ -166,6 +167,19 @@ body {
   font-size: 13.5px;
   color: #ffffff;
   padding-left: 5px;
+}
+
+.join-btn {
+  padding: 16px 20px;
+  background: #fa4f40;
+  border-radius: 0;
+}
+
+.speakers-hr {
+  color: #fa4f40;
+  width: 70px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -194,6 +208,41 @@ body {
 
   .headline-div h4 {
     font-size: 24px;
+  }
+
+  .main-program hr {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .program-item {
+    margin-right: 19px;
+  }
+
+  .program-item img {
+    width: 80px;
+  }
+
+  .program-item h4 {
+    font-size: 20px;
+  }
+
+  .program-item p {
+    font-size: 16px;
+    padding-left: 0;
+  }
+
+  .see-prog-link {
+    color: #ffffff;
+    font-size: 21px;
+  }
+
+  .see-prog-link:hover {
+    color: #fa4f40;
+  }
+
+  .speakers img {
+    height: 121px;
   }
 
 

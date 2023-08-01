@@ -42,6 +42,39 @@ body {
   height: 32px;
 }
 
+.nav-logo {
+  width: 100px;
+  height: 65px;
+}
+
+.nav-logo img {
+  width: 100px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.masters-btn {
+  background-color: transparent;
+  color: #f7423f;
+  border: #f7423f solid 4.1px;
+  border-radius: 0;
+}
+
+.masters-btn:hover {
+  background-color: #f34e3e;
+  color: rgba(0, 0, 0, 0.65);
+  border: #f34e3e solid 4.1px;
+}
+
+.menu-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.65);
+}
+
 .headline {
   background: url('./imgs/container-bg.jpeg') top;
 }

@@ -28,7 +28,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-dark {
@@ -49,11 +49,10 @@ body {
   right: 0;
   left: 0;
   background-color: rgba(250, 242, 242, 0.8);
-  color: #000000;
+  color: #000;
   font-weight: bold;
   padding: 10px;
 }
-
 
 .nav-collapse ul {
   height: 32px;
@@ -113,7 +112,7 @@ body {
 }
 
 .headline-div h1 {
-  color: #EC5242;
+  color: #ec5242;
   font-weight: bold;
   font-size: 32.6px;
   backdrop-filter: blur(8px);
@@ -131,7 +130,6 @@ body {
 .headline-div h3 {
   margin-top: 20px;
   color: rgba(0, 0, 0, 0.65);
-  font-weight: bold;
   font-size: 24.6px;
   letter-spacing: 0;
   padding: 6px;

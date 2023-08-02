@@ -79,11 +79,10 @@ body {
   padding: 10px;
 }
 
-
 .logo-cont img {
   width: 300px;
   height: 140px;
-  background: #ffffff;
+  background: #fff;
   border: #f7423f solid 4.1px;
 }
 
@@ -134,12 +133,10 @@ body {
     padding: 33px;
     font-size: 20px;
     border-radius: 5px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .past-tours p {
     font-size: 16px;
   }
-
-
 }

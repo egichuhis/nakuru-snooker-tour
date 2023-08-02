@@ -94,7 +94,9 @@ body {
 }
 
 .headline {
-  background: url('./imgs/container-bg.jpeg') top;
+  background: url('./imgs/container-bg.jpeg');
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 .headline-div {

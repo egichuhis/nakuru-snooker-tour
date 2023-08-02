@@ -122,8 +122,10 @@ body {
 
   .ab-headline-div p {
     width: 65%;
-    padding: 20px;
+    padding: 33px;
     font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .past-tours p {

@@ -15,6 +15,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -43,15 +44,31 @@ Experience the **Nakuru Snooker Tour**, where top players from Nakuru County, Ke
 <details>
   <summary>CSS</summary>
 </details>
-
+<details>
+  <summary>JavaScript</summary>
+</details>
+<details>
+  <summary>Bootstrap</summary>
+</details>
+<details>
+  <summary>FontAwesome</summary>
+</details>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Tour Headline**
-- **Featured Players**
-- **About the Tour**
+- **Home Page**
+- **About Page**
+- **Navbars & Footers**
   
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://egichuhis.github.io/nakuru-snooker-tour/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

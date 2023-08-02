@@ -12,7 +12,7 @@ body {
 }
 
 .white-link {
-  color: #ffffff;
+  color: #fff;
 }
 
 .white-link:hover {
@@ -35,7 +35,7 @@ body {
 .nav-collapse {
   background: #414246;
   font-size: 12px;
-  height: 0px;
+  height: 0;
 }
 
 .nav-collapse ul {
@@ -81,7 +81,7 @@ body {
 }
 
 .headline-div {
-  margin-top: 0px;
+  margin-top: 0;
   padding-top: 70px;
   padding-bottom: 60px;
   margin-bottom: 40px;
@@ -100,10 +100,10 @@ body {
 
 .headline-div p {
   color: rgba(0, 0, 0, 0.65);
-  background-color: #ffffff;
+  background-color: #fff;
   margin-top: 27px;
   padding: 10px;
-  box-shadow: 0px 0px;
+  box-shadow: 0 0;
   border: 5.4px solid white;
 }
 
@@ -112,7 +112,7 @@ body {
   color: rgba(0, 0, 0, 0.65);
   font-weight: bold;
   font-size: 24.6px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   padding: 6px;
 }
 
@@ -142,7 +142,7 @@ body {
   padding-right: 10px;
   padding-left: 10px;
   margin-top: 10px;
-  margin-right: 0px;
+  margin-right: 0;
   text-align: center;
 }
 
@@ -165,7 +165,7 @@ body {
 
 .program-item p {
   font-size: 13.5px;
-  color: #ffffff;
+  color: #fff;
   padding-left: 5px;
 }
 
@@ -208,8 +208,6 @@ body {
 .light-footer img {
   height: 60px;
 }
-
-
 
 @media screen and (min-width: 768px) {
   .headline-div h2 {
@@ -260,7 +258,7 @@ body {
   }
 
   .see-prog-link {
-    color: #ffffff;
+    color: #fff;
     font-size: 21px;
   }
 
@@ -271,6 +269,4 @@ body {
   .speakers img {
     height: 121px;
   }
-
-
 }

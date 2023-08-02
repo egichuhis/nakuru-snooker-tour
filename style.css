@@ -5,8 +5,10 @@
 
 @font-face {
   font-family: 'Cocogoose';
-  src: url('./fonts/Cocogoose\ Pro-trial.ttf') format('truetype');
+  src: url('./fonts/Cocogoose-Classic-ExtraBold-trial.ttf') format('truetype');
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 * {
   box-sizing: border-box;
@@ -32,6 +34,10 @@ body {
   color: #f7423f;
 }
 
+.nav-main {
+  background: url('./imgs/navbg.jpeg');
+}
+
 .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -53,7 +59,7 @@ body {
   top: 100%;
   right: 0;
   left: 0;
-  background-color: rgba(250, 242, 242, 0.8);
+  background-color: rgba(250, 242, 242, 0.9);
   color: #000;
   font-weight: bold;
   padding: 10px;
@@ -120,7 +126,7 @@ body {
   color: #ec5242;
   font-family: 'Cocogoose', serif;
   font-weight: 400;
-  font-size: 33.6px;
+  font-size: 34.6px;
   backdrop-filter: blur(8px);
 }
 
@@ -136,10 +142,12 @@ body {
 .headline-div h3 {
   margin-top: 20px;
   color: rgba(0, 0, 0, 0.65);
-  font-size: 24.6px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 23.6px;
   letter-spacing: 0;
   padding: 6px;
   font-weight: 900;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.35);
 }
 
 .headline-div h4 {
@@ -244,7 +252,7 @@ body {
 
   .headline-div h1 {
     width: 65%;
-    font-size: 56.6px;
+    font-size: 62.6px;
     padding-right: 80px;
     padding-bottom: 20px;
     font-weight: 400;

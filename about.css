@@ -19,19 +19,22 @@ body {
   align-items: center;
   text-align: center;
   padding-top: 40px;
+  margin-left: -12px;
+  margin-right: -12px;
 }
 
 .ab-headline-div h2 {
   color: #f34e3e;
-  font-size: 20.6px;
+  font-size: 23.6px;
   padding-top: 17px;
   backdrop-filter: blur(8px);
 }
 
 .ab-headline-div h1 {
-  color: #f7423f;
+  color: #ec5242;
+  font-family: 'Cocogoose', serif;
   font-weight: bold;
-  font-size: 32.6px;
+  font-size: 34.6px;
   padding-bottom: 50px;
   padding-top: 10px;
   backdrop-filter: blur(8px);
@@ -39,6 +42,7 @@ body {
 
 .ab-headline-div p {
   background: #fff;
+  border: gray solid 0.5px;
 }
 
 .ab-headline-div span {
@@ -124,7 +128,7 @@ body {
   }
 
   .ab-headline-div h1 {
-    font-size: 56.6px;
+    font-size: 62.6px;
     padding-bottom: 20px;
   }
 
@@ -132,8 +136,6 @@ body {
     width: 65%;
     padding: 33px;
     font-size: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .past-tours p {

@@ -3,6 +3,11 @@
   src: url('./fonts/Lato-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('./fonts/Cocogoose\ Pro-trial.ttf') format('truetype');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -113,8 +118,9 @@ body {
 
 .headline-div h1 {
   color: #ec5242;
-  font-weight: bold;
-  font-size: 32.6px;
+  font-family: 'Cocogoose', serif;
+  font-weight: 400;
+  font-size: 33.6px;
   backdrop-filter: blur(8px);
 }
 
@@ -241,7 +247,7 @@ body {
     font-size: 56.6px;
     padding-right: 80px;
     padding-bottom: 20px;
-    font-weight: 900;
+    font-weight: 400;
   }
 
   .headline-div p {

@@ -65,6 +65,14 @@ const renderSpeakers = (limit = 2) => {
   showButton.addEventListener('click', () => {
     isShowingAllSpeakers = !isShowingAllSpeakers;
     renderSpeakers();
+
+    if (window.innerWidth < 768) {
+      showButton.removeEventListener('click', renderSpeakers); // Remove previous listener
+      showButton.addEventListener('click', () => {
+        isShowingAllSpeakers = !isShowingAllSpeakers;
+        renderSpeakers();
+      });
+    }
   });
 };
 

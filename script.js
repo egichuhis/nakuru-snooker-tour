@@ -40,10 +40,10 @@ const speakers = [
 
 let isShowingAllSpeakers = window.innerWidth >= 768;
 
-const createSpeakerItem = (speaker) => `<div class="col-auto col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 speaker-item">
+const createSpeakerItem = (speaker) => `<div class="col-auto col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 speaker-item">
             <div class="row mt-3">
                 <div class="col-4">
-                    <img src="${speaker.image}" width="108" height="123" />
+                    <img src="${speaker.image}" width="fit-content" height="100px" />
                 </div>
                 <div class="col-8">
                     <h2 class="fw-bold fs-5">${speaker.fullName}</h2>

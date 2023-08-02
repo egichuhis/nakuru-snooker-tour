@@ -163,7 +163,14 @@ If you like this project, give it a ⭐️!
 <!-- ACKNOWLEDGEMENTS -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for this opportunity that has enabled me to learn a lot and grow my skills.
+I am deeply grateful to [Microverse](https://www.microverse.org/) for providing me with the opportunity to master HTML/CSS and JavaScript. The well-structured curriculum, supportive mentors, and collaborative projects have transformed me into a proficient web developer.
+
+Thanks also to Cindy Shin for her exceptional web template design, which greatly enhanced this project's visuals. Proper credit is given, respecting the Creative Commons License.
+
+Original Web Template Designed by:
+[Cindy Shin](https://www.behance.net/adagio07).
+
+[Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,6 +178,6 @@ I would like to thank Microverse for this opportunity that has enabled me to lea
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md) licensed and also by [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

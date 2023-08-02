@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/Lato-Regular.ttf') format('truetype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', serif;
+}
+
+.ab-headline-div {
+  background: url('./imgs/container-bg.jpeg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.ab-headline-div h2 {
+  color: #f34e3e;
+  font-size: 23.6px;
+  padding-top: 17px;
+  backdrop-filter: blur(8px);
+}
+
+.ab-headline-div h1 {
+  color: #ec5242;
+  font-family: 'Cocogoose', serif;
+  font-weight: bold;
+  font-size: 34.6px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  backdrop-filter: blur(8px);
+}
+
+.ab-headline-div p {
+  background: #fff;
+  border: gray solid 0.5px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.ab-headline-div span {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  background: #f7f7f8;
+}
+
+.ab-logo-div {
+  background-color: #fff;
+  padding-top: 15px;
+}
+
+.ab-logo-div h2 {
+  text-align: center;
+  padding: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  font-size: 25.6px;
+  font-weight: bold;
+}
+
+.ab-logo-div hr {
+  color: #fa4f40;
+  width: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  line-height: 24px;
+  border-bottom-style: solid;
+  margin-top: 0;
+}
+
+.ab-logo-div p {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo-cont img {
+  width: 300px;
+  height: 140px;
+  background: #fff;
+  border: #f7423f solid 4.1px;
+}
+
+.past-tours h2 {
+  text-align: center;
+  padding: 8px;
+  font-size: 25.6px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.past-tours hr {
+  color: #fa4f40;
+  width: 70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.past-tours p {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .ab-headline {
+    background: url('./imgs/container-bg.jpeg');
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  .ab-headline-div {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .ab-headline-div h2 {
+    font-size: 40.6;
+  }
+
+  .ab-headline-div h1 {
+    font-size: 62.6px;
+    padding-bottom: 20px;
+  }
+
+  .ab-headline-div p {
+    width: 65%;
+    padding: 33px;
+    font-size: 20px;
+  }
+
+  .past-tours p {
+    font-size: 16px;
+  }
+}

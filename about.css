@@ -43,6 +43,8 @@ body {
 .ab-headline-div p {
   background: #fff;
   border: gray solid 0.5px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .ab-headline-div span {

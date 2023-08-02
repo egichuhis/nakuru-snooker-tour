@@ -18,12 +18,14 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 40px;
 }
 
 .ab-headline-div h2 {
   color: #f34e3e;
   font-size: 20.6px;
   padding-top: 17px;
+  backdrop-filter: blur(8px);
 }
 
 .ab-headline-div h1 {
@@ -31,7 +33,8 @@ body {
   font-weight: bold;
   font-size: 32.6px;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 10px;
+  backdrop-filter: blur(8px);
 }
 
 .ab-headline-div p {
@@ -106,7 +109,14 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .ab-headline {
+    background: url('./imgs/container-bg.jpeg');
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
   .ab-headline-div {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
@@ -116,7 +126,6 @@ body {
 
   .ab-headline-div h1 {
     font-size: 56.6px;
-    padding-right: 80px;
     padding-bottom: 20px;
   }
 

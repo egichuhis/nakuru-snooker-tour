@@ -108,13 +108,15 @@ body {
 
 .headline-div h2 {
   color: #f34e3e;
-  font-size: 20.6px;
+  font-size: 23.6px;
+  backdrop-filter: blur(8px);
 }
 
 .headline-div h1 {
-  color: #f7423f;
+  color: #EC5242;
   font-weight: bold;
   font-size: 32.6px;
+  backdrop-filter: blur(8px);
 }
 
 .headline-div p {
@@ -231,13 +233,16 @@ body {
   }
 
   .headline-div h2 {
+    width: 65%;
     font-size: 40.6px;
   }
 
   .headline-div h1 {
+    width: 65%;
     font-size: 56.6px;
     padding-right: 80px;
     padding-bottom: 20px;
+    font-weight: 900;
   }
 
   .headline-div p {
